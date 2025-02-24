@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* custom */
+  --pickled-bluewood: hsl(218, 28%, 25%); /* #2E3B52 */
+  --blue-ribbon: hsl(218, 100%, 52%); /* #0a64ff */
+  --link-water: hsl(218, 57%, 97%); /* #f4f7fc */
+  --lynch: hsl(218, 18%, 46%); /* #606F89 */
+  --wild-blue-yonder: hsl(218, 18%, 46%); /* #7D90B2 */
+  --otticelli: hsl(217, 32%, 89%); /* #DAE1EC */
+  --denim: hsl(223, 77%, 46%); /* #1B4ED1 */
+  --smalt: #00359C; /* #00359C */
+  --carmine: hsl(349, 100%, 34%); /* #AE001F */
+  --zumthor: hsl(219, 100%, 96%); /* #EBF2FF */
+  --dodger-blue: hsl(220, 95%, 64%); /* #4b85fa */
+  --mulled-wine: hsl(241, 22%, 38%); /* #4D4C76 */
+
+  /* default */
+  --white: hsl(0, 0%, 100%); /* #fff */
+
+  /* icon font */
+  --deciphex-font-family: "deciphex-font";
+
+  --deciphex-font-accepted: "\e900";
+  --deciphex-font-arrow: "\e901";
+  --deciphex-font-chevron: "\e903";
+  --deciphex-font-more: "\e904";
+  --deciphex-font-ok: "\e905";
+  --deciphex-font-partial: "\e906";
+  --deciphex-font-pending: "\e907";
+  --deciphex-font-rejected: "\e908";
+  --deciphex-font-search: "\e909";
+  --deciphex-font-suitcase: "\e90a";
+}
+
+.shadow {
+  box-shadow: 0 6px 3px hsla(218, 10%, 33%, 0.149), 0 1px 3px hsl(0, 0%, 0%, 0.15);
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+#dashboard,
+body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'deciphex-font';
+  src:
+    url('/font/deciphex-font.ttf?dklyl2') format('truetype'),
+    url('/font/deciphex-font.woff?dklyl2') format('woff'),
+    url('/font/deciphex-font.svg?dklyl2#deciphex-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}

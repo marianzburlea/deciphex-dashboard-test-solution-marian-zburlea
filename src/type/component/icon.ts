@@ -1,0 +1,11 @@
+export type TIconName =
+  | 'accepted'
+  | 'more'
+  | 'pending'
+  | 'suitcase'
+  | 'arrow'
+  | 'ok'
+  | 'rejected'
+  | 'chevron'
+  | 'partial'
+  | 'search'

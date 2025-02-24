@@ -1,0 +1,15 @@
+.dropdown-checkbox-input {
+  /* position: absolute; */
+  width: 3rem;
+  opacity: 0.5;
+  outline: 0;
+}
+
+.dropdown-checkbox-input + label {
+  cursor: pointer;
+}
+
+.dropdown-checkbox-input:active + label,
+.dropdown-checkbox-input:focus + label {
+  background-color: var(--zumthor);
+}

@@ -1,0 +1,79 @@
+@use "variables" as *;
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?oho649') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?oho649') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?oho649##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="deciphex-font-"], [class*=" deciphex-font-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.deciphex-font-accepted {
+  &:before {
+    content: $deciphex-font-accepted; 
+  }
+}
+.deciphex-font-arrow {
+  &:before {
+    content: $deciphex-font-arrow; 
+  }
+}
+.deciphex-font-chevron {
+  &:before {
+    content: $deciphex-font-chevron; 
+  }
+}
+.deciphex-font-more {
+  &:before {
+    content: $deciphex-font-more; 
+  }
+}
+.deciphex-font-ok {
+  &:before {
+    content: $deciphex-font-ok; 
+  }
+}
+.deciphex-font-partial {
+  &:before {
+    content: $deciphex-font-partial; 
+  }
+}
+.deciphex-font-pending {
+  &:before {
+    content: $deciphex-font-pending; 
+  }
+}
+.deciphex-font-rejected {
+  &:before {
+    content: $deciphex-font-rejected; 
+  }
+}
+.deciphex-font-search {
+  &:before {
+    content: $deciphex-font-search; 
+  }
+}
+.deciphex-font-suitcase {
+  &:before {
+    content: $deciphex-font-suitcase; 
+  }
+}
+

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'deciphex-font';
+  src:
+    url('fonts/deciphex-font.ttf?oho649') format('truetype'),
+    url('fonts/deciphex-font.woff?oho649') format('woff'),
+    url('fonts/deciphex-font.svg?oho649#deciphex-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="deciphex-font-"], [class*=" deciphex-font-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'deciphex-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.deciphex-font-accepted:before {
+  content: "\e900";
+}
+.deciphex-font-arrow:before {
+  content: "\e901";
+}
+.deciphex-font-chevron:before {
+  content: "\e903";
+}
+.deciphex-font-more:before {
+  content: "\e904";
+}
+.deciphex-font-ok:before {
+  content: "\e905";
+}
+.deciphex-font-partial:before {
+  content: "\e906";
+}
+.deciphex-font-pending:before {
+  content: "\e907";
+}
+.deciphex-font-rejected:before {
+  content: "\e908";
+}
+.deciphex-font-search:before {
+  content: "\e909";
+}
+.deciphex-font-suitcase:before {
+  content: "\e90a";
+}

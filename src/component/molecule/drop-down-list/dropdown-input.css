@@ -1,0 +1,15 @@
+.dropdown-input {
+  position: absolute;
+  width: 3rem;
+  opacity: 0;
+  left: 0;
+}
+
+.dropdown-input + label {
+  cursor: pointer;
+}
+
+.dropdown-input:active + label,
+.dropdown-input:focus + label {
+  background-color: var(--zumthor);
+}
