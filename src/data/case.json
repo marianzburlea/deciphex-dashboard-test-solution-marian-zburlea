@@ -1144,7 +1144,7 @@
     "priority": "Low",
     "assignee": "Chadwick Molloy",
     "description": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
-    "status": "Rejected",
+    "status": "Accepted",
     "type": "Microbiology",
     "dateCreated": "5/13/2024",
     "lastUpdated": "6/6/2024"
@@ -1164,7 +1164,7 @@
     "priority": "High",
     "assignee": "Cirstoforo O'Fogarty",
     "description": "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
-    "status": "Rejected",
+    "status": "Accepted",
     "type": "Urinalysis",
     "dateCreated": "3/31/2024",
     "lastUpdated": "8/3/2023"

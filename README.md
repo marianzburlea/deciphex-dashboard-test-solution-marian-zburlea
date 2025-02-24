@@ -50,6 +50,10 @@ bun src/server.ts
 bun dev
 ```
 
+Them open the solution in a browser:
+
+[http://localhost:5173/](http://localhost:5173/)
+
 ## Notes for the architect
 
 - The solution is making use of **TypeScript** and while I developed it I caught lots and lots of bugs early, and sped up the development with autocomplete and clear understanding when shifting focus from one code file/location to another.
